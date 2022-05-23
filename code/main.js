@@ -17,7 +17,6 @@ function resetTyping(){
 
 // 한글자씩 텍스트 출력 함수
 function dynamic(randomArr){
-
  
     if(randomArr.length > 0){
         target.textContent += randomArr.shift();
