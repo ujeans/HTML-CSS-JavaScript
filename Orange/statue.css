@@ -1,0 +1,27 @@
+div {
+    background-color: white;
+    width: 400px;
+    padding: 30px;
+    /*margin-left:auto;
+    margin-right:auto;
+    margin-top:130px; */
+    margin: 150px;
+      /*      상하  좌우
+    margin: 130px auto 130px;
+            상    좌우  하
+    margin: 130px auto 130px auto;
+            상    우    하    좌 */
+    border: 10px whitesmoke solid;
+    border-radius: 5px;
+}
+h1 {
+    color: mediumaquamarine;
+    margin: auto;
+    text-align: center;              /*텍스트 정렬 기준 (이미지 안됨)*/
+    border-bottom: 3px solid; 
+    width: 270px;
+}
+p{
+    color: black;
+    text-align: center; 
+}
