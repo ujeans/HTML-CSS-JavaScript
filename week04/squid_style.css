@@ -45,6 +45,7 @@
   font-weight: bold;
   cursor: pointer;
 }
+
 .nav {
   display: flex;
   justify-content: flex-end;    /* 끝으로 옮기기 */
