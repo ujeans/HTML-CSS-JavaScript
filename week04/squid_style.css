@@ -8,6 +8,20 @@
   color: black;
 }
 
+h1 {
+  font-size: 48px;
+  font-weight: 100px;
+}
+
+.contents1 {
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+.result {
+  font-size: 24px;
+}
+
 .intro_bg {
   background-image: url("./images/intro.png");
   background-repeat: no-repeat;
@@ -23,23 +37,23 @@
   
 }
 
-.searchArea {
+.search_area {
   width: 300px;
   height: 40px;
-  background: rgba(0,0,0, 0, 50);
+  background: rgba(0, 0, 0, 0.5);
   border-radius: 5px;
   margin-top: 24px;
 }
 
-.searchArea > form > input {
+.search_area > form > input {
   border: none;
   width: 250px;
   height: 40px;
-  background: rgba(0, 0, 0, 0, 0);
+  background: rgba(0, 0, 0, 0.0);
   color: #fff;
   padding-left: 10px;
 }
-.searchArea > form > span {
+.search_area > form > span {
   width: 50px;
   color: #fff;
   font-weight: bold;
@@ -59,4 +73,37 @@
 
 .nav > li > a {
   color: #fff;
+}
+
+.intro_text {  
+  width: 100%;
+  margin: 231px auto 231px auto;  /* 글자 세로 가운데로 옮기기 -> 231px 차이가 남 (상-우-좌-하)*/
+  text-align: center;  /* 글자 가로 가운데로 옮기기 */
+}
+
+.intro_text > h1,
+.intro_text > h4 {
+  color: #fff;
+}
+
+.amount {
+  position: relative;
+  top: -66px;   /* 132/2 */
+  display: flex;
+  width: 1280px;
+  background: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  /* 그림자 좌우(+,-)상하-흐려짐*/
+  margin: auto;   /* 가운데 정렬 */
+}
+.amount > li {
+  flex: 1;
+  height: 132px;
+}
+.amount > li > div {
+  text-align: center;
+  margin-top: 37px;  /* 가운데 옴 */
+  height: 57px;
+}
+.amount > li:not(:last-child) > div {  /* 마지막 줄 제외하고 gray 줄 넣기 */
+  border-right: 1px solid #E1E1E1;
 }
