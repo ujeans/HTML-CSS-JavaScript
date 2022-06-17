@@ -1,0 +1,28 @@
+img {
+  width: 1500px;
+  height: 100%;
+  margin-left: 410px;
+}
+body {
+  margin: 0;
+  padding: 0;
+ 
+}
+.wrapper {
+  flex-direction: row;
+}
+.left {
+  background-color: black;
+  width: 410px;
+  height: 100vh;
+  position: fixed;  /* 사진 고정 */
+  display: flex;
+  align-items: center;
+}
+h2 {
+  color: #fff;
+  text-indent: 30px;   /* 들여쓰기 */
+}
+h2:hover {
+  color: rgb(140, 173, 179);
+}
