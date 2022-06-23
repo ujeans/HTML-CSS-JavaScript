@@ -1,0 +1,103 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;  
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cormorant SC', serif;
+}
+
+/* article */
+article {
+    /* margin-top: 100px; */
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.olaf {
+    border: 10px solid rgb(255, 174, 0);
+}
+.troll {
+    /* border: 10px solid rgb(55, 97, 57); */
+    border: 10px solid rgb(118, 229, 155);
+    margin: 0px 30px;
+}
+.marshmallow {
+    border: 10px  solid rgb(115, 196, 240);
+}
+
+/* common section */
+section {
+    height: 320px;
+    padding: 0 10px;
+}
+
+/* img */
+.olaf img {
+    /* margin-left: -1px; */
+    margin-top: -130px;
+    margin-bottom: 20px;
+}
+.troll img {
+    margin-top: -105px;
+    margin-bottom: 20px;
+}
+.marshmallow img {
+    margin-left: -30px;
+    margin-top: -120px;
+}
+
+/* contents */
+h1 {
+    font-size: 25px;
+}
+p {
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(210, 210, 210);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: white;
+}
+.olaf a {
+    background-color: rgb(255, 174, 0);
+    border-bottom: solid 5px #D89503;
+}
+.olaf a:active {
+    margin-bottom: -5px;  /* border의 길이만큼 빼준다 */
+    border-bottom: none;
+}
+.troll a {
+    background-color: rgb(118, 229, 155);
+    border-bottom: solid 5px #61B393;
+}
+.troll a:active {
+    margin-bottom: -5px;  /* border의 길이만큼 빼준다 */
+    border-bottom: none;
+}
+.marshmallow a {
+    background-color: rgb(115, 196, 240);
+    border-bottom: solid 5px #5A97B8;
+}
+.marshmallow a:active {
+    margin-bottom: -5px;  /* border의 길이만큼 빼준다 */
+    border-bottom: none;
+}
