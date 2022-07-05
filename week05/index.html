@@ -30,10 +30,43 @@
         </div>
     </header>
 
+    <!-- Events -->
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ad rem sed. Dolores architecto consectetur distinctio perferendis pariatur tenetur eveniet, rerum neque reiciendis repudiandae enim dicta natus optio error quidem?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit ad rem sed. Dolores architecto consectetur distinctio perferendis pariatur tenetur eveniet, rerum neque reiciendis repudiandae enim dicta natus optio error quidem?</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ab, corporis placeat? Mollitia laudantium sit aliquam labore culpa quos quae repellat, illo laboriosam est ad iste suscipit, fugit laborum, eos accusamus.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
     <script>
         const menuBtn = document.querySelector('.menu-btn');
         const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click',() => {
+            navlinks.classList.toggle('mobile-menu');
+        })
     </script>
 </body>
 </html>
-<!-- 14:25 -->
