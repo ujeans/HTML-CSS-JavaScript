@@ -1,0 +1,49 @@
+/* 공통 */
+body {
+    margin: 0;
+    background-color: rgb(107, 191, 224);
+}
+article {
+    width: 300px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    margin: 200px auto;  /* 상하 좌우*/
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background: url(./img/4cf10370d7fc1d685e1f17e2c1485fd4.jpg)right/cover no-repeat;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; /* 부모와 같은 색 해준다 */
+}
+
+li:hover {
+    /* background-color: rgb(107, 191, 224); */
+    color: rgb(107, 191, 224);
+}
