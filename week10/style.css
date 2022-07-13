@@ -52,3 +52,57 @@ section {
 .title-second {
     font-size: 48px;
 }
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.buttons > :first-child {
+    width: 50%;
+    height: 60px;
+    background-color: #d0e8f2;
+    border-radius: 15px;
+    border: 2px solid black;
+    box-shadow: 0px 2px 0px 1px black;
+    margin-right: 10px;
+}
+.buttons> :last-child {
+    width: 50%;
+}
+.play-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-btn span {
+    margin-left: 5px;
+}
+.heart {
+    height: 60px;
+    width: 30%;
+    background-color: #d0e8f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 0px 2px 0px 1px black;
+}
+.plus {
+    height: 60px;
+    width: 30%;
+    background-color: #d0e8f2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 0px 2px 0px 1px black;
+}
+.btn-hert-plus {
+    display: flex;
+    justify-content: space-evenly;
+}
