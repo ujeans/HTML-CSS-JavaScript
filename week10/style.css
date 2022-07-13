@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+section {
+    background: linear-gradient(30deg, #ffe5b9, #f6ecf0, #c9cbff, #a7c5eb);
+    border: 5px solid #1a508b;
+    padding: 20px 20px 5px;
+}
+.top {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+.top span {
+    width: 30%;
+}
+.playlist {
+    width: 70%;
+    font-size: 20px;
+}
+
+.random-love {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+}
+.playlist-img {
+    width: 132px;
+    height: 132px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.title {
+    width: 60%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.title-first {
+    font-size: 48px;
+}
+.title-second {
+    font-size: 48px;
+}
