@@ -3,12 +3,15 @@
 }
 body {
     height: 100vh;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Russo One', sans-serif;
 }
 section {
     background: linear-gradient(30deg, #ffe5b9, #f6ecf0, #c9cbff, #a7c5eb);
     border: 5px solid #1a508b;
     padding: 20px 20px 5px;
+}
+#close {
+    font-weight: 900;
 }
 .top {
     display: flex;
@@ -22,7 +25,9 @@ section {
     width: 70%;
     font-size: 20px;
 }
-
+#image {
+    font-size: 80px;
+}
 .random-love {
     display: flex;
     justify-content: center;
@@ -44,7 +49,7 @@ section {
     /* display: flex; */
     justify-content: center;
     align-items: center;
-    margin: 10px;
+    margin: 20px;
 }
 .title-first {
     font-size: 48px;
@@ -52,7 +57,9 @@ section {
 .title-second {
     font-size: 48px;
 }
-
+.sub-title {
+    font-family: 'Bree Serif', serif;
+}
 .buttons {
     display: flex;
     justify-content: space-between;
@@ -105,4 +112,49 @@ section {
 .btn-hert-plus {
     display: flex;
     justify-content: space-evenly;
+}
+.bottom {
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.songs {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.songs-box {
+    width: 50px;
+    height: 50px;
+    background-color: #c6ebc9;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.songs:first-child > :first-child {
+    background-color: #fcf8fc;
+}
+.songs:nth-child(2) > :first-child {
+    background-color: #d0e8f2;
+}
+.songs:nth-child(3) > :first-child {
+    background-color: #79a3b1;
+}
+.songs:last-child > :first-child {
+    background-color: #456268;
+}
+.songs-text {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+}
+.text {
+    font-size: 20px;
+}
+.sub-text {
+    font-family: 'Bree Serif', serif;
+    font-size: 15px;
+    color: darkgray;
 }
