@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input id="first" oninput="inputHandler()">
+  <input id="second" oninput="inputHandler()">
+  <div></div>
+</body>
+<script>
+  const first = document.querySelector("#first");
+  const second = document.querySelector("#second");
+  const div = document.querySelector("div");
+
+  function inputHandler() {
+    const firstValue = parseInt(first.value || "0");
+    const secondValue = parseInt(second.value || "0");
+    const sum = firstValue + secondValue;
+
+    div.innerText = sum;
+  }
+</script>
+</html>

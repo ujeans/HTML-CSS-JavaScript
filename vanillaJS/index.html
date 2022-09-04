@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <input>
+  <button onclick="clickHandler()">click</button>
+  <ul>
+    
+  </ul>
+</body>
+<script>
+  function clickHandler() {
+    const ul = document.querySelector("ul");
+    // const li = item();
+    const li = items();
+    ul.appendChild(li);
+  }
+
+  // function item() {
+  //   const li = document.createElement("li");
+  //   li.innerText = "this is li"
+  //   return li;
+  // }
+  
+  function items() {
+    const li = document.createElement("li");
+    const input = document.querySelector("input");
+
+    li.innerText = input.value;
+    input.value = "";
+
+    return li
+  }
+</script>
+</html>
